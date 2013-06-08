@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pad_bottom">125sp</dimen>
+    <dimen name="pad_left">50sp</dimen>
+    <dimen name="pad_right">50sp</dimen>
+    <dimen name="pad_top">155sp</dimen>
+    
+</resources>

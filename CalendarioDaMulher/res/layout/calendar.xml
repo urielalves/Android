@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_app"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/pad_bottom"
+        android:paddingLeft="@dimen/pad_left"
+        android:paddingRight="@dimen/pad_right"
+        android:paddingTop="@dimen/pad_top" >
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            layout="@layout/calendar_list" />
+
+    </LinearLayout>
+
+    <SlidingDrawer
+        android:id="@+id/sd_settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layerType="software"
+        android:layout_alignParentLeft="true"
+        android:content="@+id/content"
+        android:handle="@+id/handle" >
+
+        <ImageButton
+            android:id="@+id/handle"
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/button_inferior" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ddf6cbdd"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/setting" />
+        </LinearLayout>
+    </SlidingDrawer>
+
+</RelativeLayout>

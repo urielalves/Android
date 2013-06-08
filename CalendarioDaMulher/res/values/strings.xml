@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calendario da Mulher</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_calendar">Montar o calendário</string>
+    <string name="btn_help">Informações sobre o programa</string>
+    <string name="btn_settings">Configurações de perfil</string>
+    <string name="btn_about">Sobre</string>
+    <string name="label_nome">Informe seu nome:</string>
+    <string name="label_tam">Tamanho do ciclo:</string>
+    <string name="label_menst">Data da última menstruação:</string>
+    <string name="label_dias">dias</string>
+    <string name="label_duracao">Duração da menstruação:</string>
+    <string name="btn_enviar">enviar</string>
+    <string name="barra">/</string>
+    <string name="about">Calendario da Mulher\n\nA calculadora do período fértil é baseada no Modelo Rítmico.\nÉ a ferramenta ideal para quem está querendo engravidar. Este método consiste em calcular a data provável de ovulação através de dados informados, como a data da última menstruação, a duração média do ciclo entre as menstruações dos últimos seis meses e qual é a duração da menstruação.\n\nAtenção!! Este não é um método contraceptivo seguro!\n\nPara utilizar o calendário, informe nas configurações os seus dados, e após, clique no calendário para gerar as datas.</string>
+	<string name="developer">Aplicativo desenvolvido por\n\nUriel Alves de Aquino\n\n para a disciplina de Computação Móvel, do curso de Tecnologia em Análise e Desenvolvimento de Sistemas\n\n Prof. Reuel Lopes\n\n2013</string>
+    
+</resources>
